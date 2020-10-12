@@ -1,6 +1,35 @@
+:root {
+    text-align: center;
+    font-family: "Ubuntu Thin";
+    --imperial-red: #e63946ff;
+    --honeydew: #f1faeeff;
+    --powder-blue: #a8dadcff;
+    --celadon-blue: #457b9dff;
+    --prussian-blue: #1d3557ff
+}
+
+.body {
+    background-color: var(--prussian-blue);
+    color: var(--honeydew);
+}
+
 .picture {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
+}
+
+#title {
+    background-color: var(--imperial-red);
+}
+
+.fact {
+    text-align: justify;
+    width: fit-content;
+}
+
+#tribute-link {
+    color: crimson;
+    font-weight: bolder;
 }
